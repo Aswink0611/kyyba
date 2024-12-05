@@ -1,0 +1,103 @@
+.header {
+    background-color: hsl(210, 1%, 69%);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .bag{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #df7e7e;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+   
+   
+
+
+
+  }
+  
+  .input h2 {
+    margin: 0 0 10px;
+    color: #2484eb;
+  }
+  
+  .input input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .button button {
+    width: 90%;
+    padding: 10px;
+    background-color: #2484eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button button:hover {
+    background-color: #0056b3;
+  }
+  
+  .remaining-tasks {
+    margin: 10px 0;
+    color: #2484eb;
+  }
+  
+  .task ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #1977d4;
+  }
+  qsq
+  .task li button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task li button:first-child {
+    background-color: #12a4f8;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    
+  }
+  
+  .task li button:last-child {
+    background-color: hsl(354, 54%, 66%);
+    color: white;
+    border: none;
+
+  }
+  
+  .task li button:hover:first-child {
+    background-color: #0c1bee;
+  }
+  
+  .task li button:hover:last-child {
+    background-color: #c82333;
+  }
+  
